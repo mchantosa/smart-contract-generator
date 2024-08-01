@@ -3,17 +3,7 @@
 pragma solidity ^0.8.0;
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import "hardhat/console.sol";
-// import {Utils} from  "./utils.sol";
-
-library Utils {
-    function etherToWei(uint sumInEther) public pure returns(uint){
-        return sumInEther * 1 ether;
-    }
-
-    function minutesToSeconds(uint timeInMin) public pure returns(uint){
-        return timeInMin * 1 minutes;
-    }
-}
+import {Utils} from  "./utils.sol";
 
 contract Crowdfunding is Ownable{
   using Utils for uint;
