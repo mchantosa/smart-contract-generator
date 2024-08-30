@@ -8,9 +8,9 @@ const CrowdfundingModule = buildModule("CrowdfundingModule", (m) => {
   const crowdfunding = m.contract(
     "Crowdfunding",
     [
-      "3 day crowdfunding test", // campaignName
-      3, // ether (targetAmount)
-      24 * 60 * 3, // duration (minutes from now)
+      "An awesome .1 ETH campaign", // campaignName
+      0.1, // ether (targetAmount)
+      10, // duration (minutes from now)
       "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", // beneficiary
     ],
     {

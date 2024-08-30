@@ -51,6 +51,7 @@ contract Crowdfunding is Ownable{
     amounts[msg.sender] += msg.value;
     if(totalCollected() >= targetAmount){
       collected = true;
+      //finishedCrowdfunding();
     }
   }
 
