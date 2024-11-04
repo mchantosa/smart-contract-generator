@@ -36,6 +36,10 @@ To get started with this project, you can try out some of the following tasks:
 
 ### Help and Commands
 
+- **Install Dependencies:**
+  ```shell
+  npm install
+  ```
 - **Show available Hardhat tasks and options:**
   ```shell
   npx hardhat help
